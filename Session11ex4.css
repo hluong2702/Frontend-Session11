@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    margin: 12px;
+  }
+  
+  .header {
+    width: 100%;
+    margin-bottom: 10px;
+    gap: 10px;
+    display: flex;
+  }
+  .box1 {
+    width: 50%;
+    background-color: #ffa437;
+    height: 75px;
+  }
+  .box2 {
+    width: 50%;
+    background-color: #ffa437;
+    height: 75px;
+  }
+  .main1 {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #daec00;
+    height: 300px;
+  }
+  .main2 {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box3 {
+    width: 33%;
+    background-color: #4a88cf;
+    height: 150px;
+  }
+  .box4 {
+    width: 33%;
+    background-color: #4a88cf;
+    height: 150px;
+  }
+  .box5 {
+    width: 33%;
+    background-color: #4a88cf;
+    height: 150px;
+  }
+  .footer {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .box6 {
+    width: 24%;
+    background-color: #e3e3e3;
+    height: 100px;
+  }
+  .box7 {
+    width: 24%;
+    background-color: #e3e3e3;
+    height: 100px;
+  }
+  .box8 {
+    width: 24%;
+    background-color: #e3e3e3;
+    height: 100px;
+  }
+  .box9 {
+    width: 24%;
+    background-color: #e3e3e3;
+    height: 100px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .box1 {
+      width: 100%;
+      height: 55px;
+    }
+    .box2 {
+      width: 100%;
+      height: 55px;
+    }
+    .main1 {
+      height: 125px;
+    }
+    .main2 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .box3 {
+      width: 100%;
+      height: 90px;
+    }
+    .box4 {
+      width: 100%;
+      height: 90px;
+    }
+    .box5 {
+      width: 100%;
+      height: 90px;
+    }
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .box6 {
+      width: 49%;
+      height: 55px;
+    }
+    .box7 {
+      width: 49%;
+      height: 55px;
+    }
+    .box8 {
+      width: 49%;
+      height: 55px;
+    }
+    .box9 {
+      width: 49%;
+      height: 55px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .header {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .box2 {
+      width: 100%;
+      height: 50px;
+    }
+    .box1 {
+      width: 100%;
+      height: 50px;
+    }
+    .main1 {
+      width: 100%;
+      height: 100px;
+    }
+    .main2 {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .box3 {
+      width: 100%;
+      height: 125px;
+    }
+    .box4 {
+      width: 100%;
+      height: 125px;
+    }
+    .box5 {
+      width: 100%;
+      height: 125px;
+    }
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .box6 {
+      width: 100%;
+      height: 50px;
+    }
+    .box7 {
+      display: none;
+    }
+    .box8 {
+      display: none;
+    }
+    .box9 {
+      display: none;
+    }
+  }

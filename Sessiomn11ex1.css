@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 20px;
+}
+
+.header{
+    background-color: red;
+    text-align: center;
+    border: 1px solid red;
+    color: white;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.mainContent{
+    display: flex;
+    gap: 12px;
+    padding: 12px 0;
+    height:100vh;
+    flex-direction: row;
+}
+
+ .box1{
+    border: 1px solid #008001;
+    flex: 1;
+    background-color: #008001;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.box2{
+    border: 1px solid #FFFF04;
+    flex: 3;
+    background-color: #FFFF04;
+    border-radius: 10px;
+    width: fit-content;
+    
+}
+
+.box3{
+    border: 1px solid #008001;
+    flex: 1;
+    background-color: #008001;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.footer{
+    background-color: #0000FE;
+    color: white;
+    text-align: center;
+    height: 80px;
+    border-radius: 10px;
+}
+
+
+
+/* Mobile: width < 768px */
+/* max-width: Tức là bé hơn 767px */
+/* min-width: Tức là lớn hơn 768px */
+@media screen and (max-width: 767px) {
+    .main{
+      flex-direction: column;
+      height: fit-content;
+    }
+
+    .mainContent{
+        height: fit-content;
+    }
+
+
+
+    .header{
+        height: 80px;
+    }
+}
+  
+
